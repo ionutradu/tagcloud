@@ -1,6 +1,26 @@
 # tagcloud
-Fetch and parse Twitter data to find the most used words.
+Fetch and parse Twitter data to find the most used words in a given amount of time.
 
+# Requirements
+
+Install python2.7:
+
+	apt-get install python2.7
+	apt-get install python2.7-dev
+
+Install pip:
+
+	https://pip.pypa.io/en/latest/installing.html
+
+Install docker:
+
+	http://docs.docker.com/installation/ubuntulinux/#installing-docker-on-ubuntu
+	
+Install docker-compose:
+
+	pip install -U docker-compose
+
+# Running the application
 To start the application inside the containers:
 	
 	start.sh SECONDS MAXWORDS
