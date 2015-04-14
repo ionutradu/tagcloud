@@ -1,0 +1,12 @@
+app:
+ build: .
+ command: python tagCloud.py 1 10
+ volumes:
+  - .:/code
+ links: 
+  - redis
+
+redis:
+ image: redis
+ expose: 
+  - "6379"
