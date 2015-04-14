@@ -8,10 +8,10 @@ import redis
 import threading
 
 # Authentication details
-consumer_key = '14xwxR0WJ3qF8sSLN0upGaU2j'
-consumer_secret = '4ynhe4rNHxArWWznhC2O8H9GWIZ3yIE0kVWAYUvJDtfOwHfpok'
-access_token = '3152092426-ati3Ffbcmb1PypzaG5aAH6z3PkPfjkYzkIWsLlg'
-access_token_secret = 'B08rSfdYMh0rXHPm2a9iHkTUIktmT9yrxoDroXJtMmvp4'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 class TagCloud():
 	
